@@ -47,7 +47,7 @@
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>
+	
 	</repository>
  
 	<snapshotRepository>
