@@ -25,7 +25,6 @@
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.7.8</version>
       <executions>
-	      <url>http://35.237.152.226:8081/repository/codeanalysissnap/</url>
         <execution>
           <id>pre-unit-test</id>
           <goals>
@@ -48,13 +47,13 @@
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-	
+		<url>http://35.193.152.132:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://35.237.152.226:8081/repository/codeanalysisrelease/</url>
+		<url>http://35.193.152.132:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
 </distributionManagement>
